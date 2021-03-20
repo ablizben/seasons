@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+if (module.hot) {
+    module.hot.accept();
+  }
+
 class App extends React.Component {
     constructor(props) {
         super(props);
